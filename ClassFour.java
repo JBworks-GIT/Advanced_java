@@ -49,12 +49,12 @@ class ClassFour {
     }
 
 
-    static class  K21bp implements KeyListener {
+    static class  KeyEvents implements KeyListener {
         JFrame f;
         JLabel l;
         JTextArea ta;
 
-        K21bp() {
+        KeyEvents() {
             f = new JFrame("Key events");
             l = new JLabel();
             l.setBounds(10, 20, 120, 30);
@@ -83,19 +83,21 @@ class ClassFour {
             l.setText("Key Typed");
         }
     }
+
     public static void main(String[] args) {
-            new ClassFour();
-            new bk();
-            new K21bp();
+        new ClassFour();
+        new scroll();
+        new KeyEvents();
     }
+
 }
 
 
 
 
-    class bk{
+    class scroll{
     JFrame f  ;
-    bk(){
+    scroll(){
         f = new JFrame("JTable and JScrollPane");
         String data[][] ={{"101","Shruti","678"},
                 {"102","Yash","762"},
@@ -115,14 +117,13 @@ class ClassFour {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.getContentPane().setBackground(Color.blue);
         f.setVisible(true);
-    }
+    }}
 
-    class k21bp implements KeyListener
-    {
+    class KeyEvents implements KeyListener{
         JFrame f;
         JLabel l;
         JTextArea ta;
-        k21bp()
+        KeyEvents()
         {
             f=new JFrame("Key events");
             l=new JLabel();
@@ -152,5 +153,4 @@ class ClassFour {
             l.setText("Key Typed");
         }
     }
-}
 
