@@ -1,9 +1,7 @@
-//package Unit2;
-//
-//
-//import javax.swing.*;
-//import java.awt.*;
-//
+package Unit2;
+import javax.swing.*;
+import java.awt.*;
+
 //public class classOne {
 //    public static void main(String[] args) {
 //        JFrame  f= new JFrame("My first application");
@@ -20,12 +18,7 @@
 //}
 
 
-//package Unit2;
-//
-//
-//import javax.swing.*;
-//import java.awt.*;
-//
+
 //public class classOne {
 //    public static void main(String[] args) {
 //        JFrame  f= new JFrame("My Second application");
@@ -41,9 +34,9 @@
 //        p1.setBackground(Color.GREEN);
 //
 //        JLabel l =new JLabel("Name :-");
-//        l.setBounds(70,40,50,30);
+//        l.setBounds(100,40,50,30);
 //        JTextField tf = new JTextField("TextField");
-//        tf.setBounds(80,40,50,30);
+//        tf.setBounds(110,40,50,30);
 //        tf.setForeground(Color.RED);
 //
 //
@@ -57,7 +50,7 @@
 //        f.setResizable(true);
 ////        f.setLayout(null);
 //        f.setLocationRelativeTo(null);
-//        f.getContentPane().setBackground(new Color(10,230,34));
+//        f.getContentPane().setBackground(new Color(10,0,34));
 //        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 ////        f.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 ////        f.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
@@ -65,12 +58,7 @@
 //    }
 //}
 
-//
-package Unit2;
 
-
-import javax.swing.*;
-import java.awt.*;
 
 public class classOne {
     public static void main(String[] args) {

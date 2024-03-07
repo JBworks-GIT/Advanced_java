@@ -7,7 +7,7 @@ public class ClassTwo {
         public static void main(String... jai)
         {
             JFrame f=new JFrame("My new  application");
-            JLabel l=new JLabel("color mw");
+            JLabel l=new JLabel("change me");
             l.setBounds(20,80,170,30);
             l.setForeground(Color.yellow);
             JButton b=new JButton("Click");
